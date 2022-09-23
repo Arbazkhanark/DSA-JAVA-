@@ -12,14 +12,20 @@ class Teacher{
     int age;
     String sub;
 
+    static int count;
+
     //BEHAVIORS
     void work(){
         System.out.println("Teacher teach the Students to Educate");
+        count++;
     }
     void work(String attend){
         System.out.println("Teacher take the Attendace "+attend);
     }
 
+
+
+    // --------------------   Constructor    --------------------------
     public Teacher(){
         System.out.println("I am Constructor, call");
 
@@ -58,5 +64,8 @@ class Constructor{
 
         t2.work();
         t1.work("Daily");
+
+
+        System.out.println("Count: "+Teacher.count);
     }
 }
