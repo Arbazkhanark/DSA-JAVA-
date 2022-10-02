@@ -21,14 +21,14 @@ class Teacher1{
     // --------------------   Constructor    --------------------------
     public Teacher1(){
         System.out.println("I am Constructor, call");
-
+        this.work();
         count++;
     // This is Constructor But This is hide all the time but it is there to help to create the Object
     }
-    public Teacher1(String newName ,int newAge){
-        name=newName;
-        age=newAge;
-        
+    public Teacher1(String name ,int age){
+        this.name=name;
+        this.age=age;
+        work();
         System.out.println("I am Second Constructor which have some Parameter");
 
         //This has the Same Name as before but This is also a Constructor 
@@ -58,6 +58,6 @@ class Access{
         System.out.println(t2.name+" Age "+t2.age);
 
 
-        System.out.println("Count: "+Teacher.count); // STATIC  helps to access the variable Directly.
+        System.out.println("Count: "+Teacher1.count); // STATIC  helps to access the variable Directly.
     }
 }

@@ -10,6 +10,7 @@ class Circle{
 
         System.out.print("Enter Radius of Circle :");
         float radius=sc.nextFloat();
+        sc.close();
 
         float pie=3.14f;
         float permeter=2*(pie*radius);

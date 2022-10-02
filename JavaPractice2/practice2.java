@@ -8,6 +8,7 @@ class Table{
 
         System.out.print("Enter a number for Table: ");
         int n=sc.nextInt();
+        sc.close();
 
         for(int i=1;i<=10;i++){
             int mul=n*i;

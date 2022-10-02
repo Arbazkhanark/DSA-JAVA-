@@ -12,6 +12,7 @@ class Greatest{
         int num2=ac.nextInt();
         System.out.print("Enter Three Number: ");
         int num3=ac.nextInt();
+        ac.close();
 
         if(num1>num2){
             if(num1>num3){

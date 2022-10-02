@@ -7,7 +7,7 @@ class MaxMin{
         int arr[]={2,8,-1,2,102,35,21,9,54,75};
 
         int max=arr[0];
-        int min=0;
+        
         for(int i=0;i<arr.length;i++){
             if(arr[i]>max){
                 max=arr[i];

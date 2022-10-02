@@ -13,6 +13,7 @@ class Product{
 
         System.out.print("Enter your Second number: ");
         int num2=sc.nextInt();
+        sc.close();
 
         int res=num1*num2;
         System.out.println("The Product of these numbers: "+res);

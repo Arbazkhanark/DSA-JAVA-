@@ -9,6 +9,8 @@ class Meters{
 
         System.out.print("Enter Inches to convert in Meters: ");
         float inch=sc.nextFloat();
+        sc.close();
+
         float meter=inch/39.37f;
 
         System.out.println("Meter : "+meter);

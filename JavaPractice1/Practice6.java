@@ -11,6 +11,7 @@ class Swap{
         int x=sc.nextInt();
         System.out.print("Enter the Value of Y: ");
         int y=sc.nextInt();
+        sc.close();
 
         int temp=0;
         temp=x;

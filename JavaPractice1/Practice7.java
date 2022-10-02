@@ -9,6 +9,7 @@ class Grade{
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter your Marks: ");
         int marks=sc.nextInt();
+        sc.close();
 
         if(marks>90){
             System.out.println("A++");
