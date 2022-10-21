@@ -9,11 +9,12 @@ class SumDigit{
         return a%10+(sum(a/10)); 
     }
 
-
-
     public static void main(String[] args) {
+      
         int n=10;
         System.out.println(sum(n));
+        
+        
         // int temp=0;
         // while(n>0){ 
         //     int x=n%10;
@@ -21,8 +22,6 @@ class SumDigit{
         //     n=n/10;
         // }
         // System.out.println(temp);
-
-
-
+        
     }
 }
