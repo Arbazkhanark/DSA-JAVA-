@@ -1,4 +1,4 @@
-// Rat in a Maze.
+// Is there is path to go for a Rat in a Maze.
 
 package recursion_And_Backtracking.backtracking;
 
