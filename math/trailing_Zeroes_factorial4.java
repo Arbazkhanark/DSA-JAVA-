@@ -14,7 +14,6 @@ class Trailing_Zeroes_factorial{
             count+=x;
         }
         System.out.println("Factorial: "+fact);
-
         System.out.println("Trailing Zeroes: "+count);
     }
 }
