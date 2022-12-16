@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "SortingAlgo.SelectionSort",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch BubbleSortExample",
             "request": "launch",
             "mainClass": "SortingAlgo.BubbleSortExample",
