@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "SortingAlgo.InsertionSort",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion",
+            "request": "launch",
+            "mainClass": "SortingAlgo.Insertion",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch SelectionSort",
             "request": "launch",
             "mainClass": "SortingAlgo.SelectionSort",
