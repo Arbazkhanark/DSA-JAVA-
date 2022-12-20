@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Merge",
+            "request": "launch",
+            "mainClass": "SortingAlgo.Merge",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicateElements",
+            "request": "launch",
+            "mainClass": "SortingAlgo.RemoveDuplicateElements",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rsort",
+            "request": "launch",
+            "mainClass": "SortingAlgo.Rsort",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sort",
+            "request": "launch",
+            "mainClass": "SortingAlgo.Sort",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch InsertionSort",
             "request": "launch",
             "mainClass": "SortingAlgo.InsertionSort",
