@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Quick",
+            "request": "launch",
+            "mainClass": "SortingAlgo.Quick",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch Merge",
             "request": "launch",
             "mainClass": "SortingAlgo.Merge",
