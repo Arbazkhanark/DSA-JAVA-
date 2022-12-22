@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch.BinarySearch",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch Quick",
             "request": "launch",
             "mainClass": "SortingAlgo.Quick",
