@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch matrix",
+            "request": "launch",
+            "mainClass": "matrix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchElement_In_TwoD_Array",
+            "request": "launch",
+            "mainClass": "SearchElement_In_TwoD_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add_TwoD_Array",
+            "request": "launch",
+            "mainClass": "Add_TwoD_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch matrix",
+            "request": "launch",
+            "mainClass": "BinarySearch.matrix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearch",
             "request": "launch",
             "mainClass": "BinarySearch.BinarySearch",
