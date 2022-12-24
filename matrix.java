@@ -18,6 +18,10 @@ class matrix{
 }
 
 
+
+
+
+
 ////Searching for an element x in a matrix.
 class SearchElement_In_TwoD_Array{
     public static void main(String[] args) {
@@ -60,7 +64,7 @@ class SearchElement_In_TwoD_Array{
             }
             
         }if(temp!=key){
-            System.out.println("Search key is not in a Matrix :(");
+            System.out.println("Search key is not in a Matrix :("); 
         }
     }
 }
@@ -86,5 +90,81 @@ class SearchElement_In_TwoD_Array{
             }
             System.out.println();
         }
+    }
+}
+
+
+
+
+
+//// Add two matrix
+class AddMatrix{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the size of rows: ");
+        int row=sc.nextInt();
+        System.out.print("Enter the size of columns: ");
+        int col=sc.nextInt();
+
+
+        //Matrix
+        int arr1[][]=new int[row][col];
+        int arr2[][]=new int[row][col];
+        int res[][]=new int[row][col];
+
+
+
+        // Enter First Matrix Elements
+        System.out.println("Thanks for that, Now you can  Enter the Elements: ");
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                arr1[i][j]=sc.nextInt();
+            }
+        }
+
+
+        //Enter Second Matrix Elements
+        System.out.println("🍂🍂Congratulation🍂🍂, Now Enter Second Matrix Elements: ");
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                arr2[i][j]=sc.nextInt();
+            }
+        }
+
+
+
+
+//Before Addition
+        // Print First Matrix
+        System.out.println("First Matrix: ");
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                System.out.print(arr1[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+        // Print Second Matrix
+        System.out.println("Second Matrix: ");
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                System.out.print(arr2[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+
+
+
+// After Addition
+    System.out.println("After Addition");
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                res[i][j]=arr1[i][j]+arr2[i][j];
+                System.out.print(res[i][j]+" ");
+            }
+            System.out.println();
+        }
+
     }
 }
