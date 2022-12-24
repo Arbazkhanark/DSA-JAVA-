@@ -113,7 +113,6 @@ class AddMatrix{
         int res[][]=new int[row][col];
 
 
-
         // Enter First Matrix Elements
         System.out.println("Thanks for that, Now you can  Enter the Elements: ");
         for(int i=0;i<row;i++){
@@ -122,7 +121,6 @@ class AddMatrix{
             }
         }
 
-
         //Enter Second Matrix Elements
         System.out.println("🍂🍂Congratulation🍂🍂, Now Enter Second Matrix Elements: ");
         for(int i=0;i<row;i++){
@@ -130,9 +128,6 @@ class AddMatrix{
                 arr2[i][j]=sc.nextInt();
             }
         }
-
-
-
 
 //Before Addition
         // Print First Matrix
@@ -153,9 +148,6 @@ class AddMatrix{
             System.out.println();
         }
 
-
-
-
 // After Addition
     System.out.println("After Addition");
         for(int i=0;i<row;i++){
@@ -166,5 +158,34 @@ class AddMatrix{
             System.out.println();
         }
 
+    }
+}
+
+
+
+
+
+
+
+
+//Multiply of two matrix
+class MultiplyMatrix{
+    public static void main(String[] args) {
+        // Scanner sc=new Scanner(System.in);
+        int arr1[][]={{1,2,3},{1,2,3}};
+        int arr2[][]={{1,2,3},{1,2,3}};
+        int res[][]=new int[2][3];
+
+        for(int i=0;i<2;i++){
+            for(int j=0;j<3;j++){
+                res[i][j]=0;
+                for(int k=0;k<res.length;k++){
+                    res[i][j]+=arr1[i][k]*arr2[k][j];
+                }
+                
+                System.out.print(res[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
 }
