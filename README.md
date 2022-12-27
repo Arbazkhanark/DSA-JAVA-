@@ -20,5 +20,10 @@ So we must have good knowledge about data structures.
  Primitive data structure                                                     Non-primitive data structure      
    _____________|_______________________                            __________________________|____________________________________________________
   |             |        |              |                           |                                                                              |
-Integer      Float     Character      Boolean                 Linear data structure                                                 Non-Linear data structure
-  
+Integer      Float     Character      Boolean                 Linear data structure                                             Non-Linear data structure
+                                                                    |
+                                                                    |
+                                                                    |
+                                                     _______________|_________________
+                                                     |            |         |         |
+                                                  Array        Stack     Queue     Linked-List
