@@ -21,9 +21,9 @@ So we must have good knowledge about data structures.
    _____________|_______________________                            __________________________|____________________________________________________
   |             |        |              |                           |                                                                              |
 Integer      Float     Character      Boolean                 Linear data structure                                             Non-Linear data structure
-                                                                    |
-                                                                    |
-                                                                    |
-                                                     _______________|_________________
+                                                                    |                                                                           |
+                                                                    |                                                               ____________|_____
+                                                                    |                                                              |                  |
+                                                     _______________|_________________                                            Graph            Treees
                                                      |            |         |         |
                                                   Array        Stack     Queue     Linked-List
