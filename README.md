@@ -27,3 +27,16 @@ Integer      Float     Character      Boolean                 Linear data struct
                                                      _______________|_________________                                            Graph            Treees
                                                      |            |         |         |
                                                   Array        Stack     Queue     Linked-List
+
+
+
+
+
+
+
+In a linear data structure, 
+data elements are arranged in a linear order where each and every element is attached to its previous and next adjacent.
+
+
+In a non-linear data structure,
+data elements are attached in hierarchically manner.
