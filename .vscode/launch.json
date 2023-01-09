@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Last_Occurence",
+            "request": "launch",
+            "mainClass": "BinarySearch.Last_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch First_Occurence",
             "request": "launch",
             "mainClass": "BinarySearch.First_Occurence",
