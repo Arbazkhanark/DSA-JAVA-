@@ -44,7 +44,7 @@ class Marks{
 
 
 //Nested IfElse
-//Greater Number in Three numbers..
+//Greatest Number from Three numbers..
 
 class NestedIfElse{
     public static void main(String[] args) {

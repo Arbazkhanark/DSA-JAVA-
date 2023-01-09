@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch First_Occurence",
+            "request": "launch",
+            "mainClass": "BinarySearch.First_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inputoutput",
+            "request": "launch",
+            "mainClass": "Inputoutput",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shift",
+            "request": "launch",
+            "mainClass": "Shift",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary",
+            "request": "launch",
+            "mainClass": "BinarySearch.Binary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch MultiplyMatrix",
             "request": "launch",
             "mainClass": "MultiplyMatrix",
