@@ -56,7 +56,6 @@ class Count{
         int arr[]={1,2,3,3,3,4,4,5,7,7,7,7,7,8,9};
         int key=7;
         int res[]=new int[2];
-
         res[0]=first(arr, key);
         res[1]=last(arr, key);
 
@@ -65,8 +64,8 @@ class Count{
         }
 
         int Count=0;
-        // Count=(res[1]-res[0])+1;
-        Count=(last(arr, key)-first(arr, key))+1;
+        Count=(res[1]-res[0])+1;  // (Last-First)+1;
+        // Count=(last(arr, key)-first(arr, key))+1;
         System.out.println("The Total Occurences are: "+Count);
     }
 }
