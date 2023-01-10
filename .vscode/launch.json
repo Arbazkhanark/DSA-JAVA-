@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch search_in_Rotated_Array",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.search_in_Rotated_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Binary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch First_Occurence",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.First_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Last_Occurence",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Last_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Count",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch Last_Occurence",
             "request": "launch",
             "mainClass": "BinarySearch.Last_Occurence",

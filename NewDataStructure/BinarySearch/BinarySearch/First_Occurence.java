@@ -1,4 +1,4 @@
-package BinarySearch;
+package NewDataStructure.BinarySearch.BinarySearch;
 
 class First_Occurence{
 
@@ -10,18 +10,18 @@ class First_Occurence{
                 res=mid;
                 end=mid-1;
             }
-            if(key<arr[mid]){
-                end=mid-1;
-            }else{
+            if(key>arr[mid]){
                 start=mid+1;
+            }else{
+                end=mid-1;
             }
         }
         return res;
     }
 
     public static void main(String[] args) {
-        int arr[]={2,6,7,7,7,8,8,8,10,11,11,11,13,15,17,17,17,18};
-        int key=18;
+        int arr[]={2,6,7,7,7,8,8,8,8,8,8,8,11,11,11,11,11,13,15,17,17,17,18};
+        int key=11;
         int start=0;
         int end=arr.length;
         int res=first_Occurence(arr, start, end, key);
