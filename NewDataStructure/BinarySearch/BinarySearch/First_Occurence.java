@@ -10,10 +10,10 @@ class First_Occurence{
                 res=mid;
                 end=mid-1;
             }
-            if(key<arr[mid]){
-                end=mid-1;
-            }else{
+            if(key>arr[mid]){
                 start=mid+1;
+            }else{
+                end=mid-1;
             }
         }
         return res;
