@@ -1,4 +1,4 @@
-package BinarySearch;
+package NewDataStructure.BinarySearch.BinarySearch;
 
 class Binary{
 

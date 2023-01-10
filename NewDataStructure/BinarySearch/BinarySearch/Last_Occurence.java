@@ -1,4 +1,4 @@
-package BinarySearch;
+package NewDataStructure.BinarySearch.BinarySearch;
 import java.util.Scanner;
 
 public class Last_Occurence {
@@ -18,7 +18,8 @@ public class Last_Occurence {
     }
 
     public static void main(String[] args) {
-        int arr[]={2,4,4,4,6,6,6,6,7,8,9,9,9,12,12,14,17,17};
+        // int arr[]={2,4,4,4,6,6,6,6,7,8,9,9,9,12,12,14,17,17};
+        int arr[]={1,2,3,3,3,4,4,5,7,7,7,7,7,7,7,8,9};
         int start=0;
         int end=arr.length-1;
         
