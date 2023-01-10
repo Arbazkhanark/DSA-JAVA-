@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Search_in_Infinite_Array",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Search_in_Infinite_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch search_in_Rotated_Array",
             "request": "launch",
             "mainClass": "NewDataStructure.BinarySearch.BinarySearch.search_in_Rotated_Array",
