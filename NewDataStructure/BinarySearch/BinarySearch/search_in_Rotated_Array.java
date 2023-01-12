@@ -10,7 +10,7 @@ public class search_in_Rotated_Array {
         while(start<=end){
             int mid=start+(end-start)/2;
 
-        //Mid    
+    //Mid    
             if(arr[mid]==key){
                 return mid;
             }

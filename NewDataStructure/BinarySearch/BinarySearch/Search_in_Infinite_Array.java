@@ -34,11 +34,10 @@ class Search_in_Infinite_Array{
             }
         }
         return -1;
-        // return range;
     }
     public static void main(String[] args) {
         int arr[]={1,2,3,4,6,7,8,11,13,14,17,17,19,23,25,27,28,29,31,34,35,36};
-        int key=6;
+        int key=28;
         int res=searchInfinite(arr, key);
         System.out.println(res);
     }

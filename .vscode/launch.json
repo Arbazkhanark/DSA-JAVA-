@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Median_of_Two_Sorted_Arrays",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Median_of_Two_Sorted_Arrays",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary_Rough",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Binary_Rough",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch Search_in_Infinite_Array",
             "request": "launch",
             "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Search_in_Infinite_Array",
