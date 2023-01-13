@@ -9,4 +9,8 @@ class LL{
 class Node{
     int Data;
     Node next;
+
+    public Node(int data){
+        this.Data=data;
+    }
 }
