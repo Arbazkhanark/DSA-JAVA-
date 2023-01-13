@@ -6,10 +6,10 @@ class LL{
         Node n2=new Node(20);
         Node n3=new Node(30);
 
-        
-        n1.next=n2;
-        n2.next=n3;
-        n3.next=null;
+        Node head=n1; // head= n1
+        n1.next=n2;   //Node point to next node
+        n2.next=n3;   //Node point to next node
+        n3.next=null; //Last Node next pointer is Always Null
     }
 }
 
