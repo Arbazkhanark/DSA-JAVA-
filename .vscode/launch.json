@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainClass",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.MainClass",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch LL",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.LL",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch Median_of_Two_Sorted_Arrays",
             "request": "launch",
             "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Median_of_Two_Sorted_Arrays",
