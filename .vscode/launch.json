@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Linkk",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.Linkk",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Linkk",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.Linkk",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch MainClass",
             "request": "launch",
             "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.MainClass",
