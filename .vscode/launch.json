@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SquareOfArray",
+            "request": "launch",
+            "mainClass": "SquareOfArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Square",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Square",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch merge",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.merge",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeSecondWay",
             "request": "launch",
             "mainClass": "MergeSecondWay",

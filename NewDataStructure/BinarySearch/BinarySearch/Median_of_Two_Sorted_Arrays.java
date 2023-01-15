@@ -35,3 +35,54 @@ public class Median_of_Two_Sorted_Arrays {
         }
     }
 }
+
+
+class MergeMedian{
+    public static void main(String[] args) {
+        int arr1[]={1,3};
+        int arr2[]={2,7};
+
+        int res[]=new int[arr1.length+arr2.length];
+        int k=arr1.length+arr2.length-1;
+
+        int i=arr1.length-1;
+        int j=arr2.length-1;
+
+        int start=0;
+        int end=res.length;
+
+        
+        while(i>=0 && j>=0){
+            if(arr1[i]>arr2[j]){
+                res[k--]=arr1[i--];
+            }else{
+                res[k--]=arr2[j--];
+                
+            }
+        }
+        while(i>=0){
+            res[k--]=arr1[i--];
+        }
+        while(j>=0){
+            res[k--]=arr2[j--];
+        }
+
+        for (int l : res) {
+            System.out.println(l);
+        }
+
+        double median=0;
+        if(end%2==0){
+            
+            for(int x=0;x<end;x++){
+                median+=res[x];
+            }
+            median/=end;
+            System.out.println("Median: "+median);
+        }else{
+            median=(start+end)/2;
+            System.out.println("Median: "+res[(int)median]);
+        }
+
+    }
+}
