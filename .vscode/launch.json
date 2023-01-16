@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SquareRoot",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.SquareRoot",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch SquareOfArray",
             "request": "launch",
             "mainClass": "SquareOfArray",
