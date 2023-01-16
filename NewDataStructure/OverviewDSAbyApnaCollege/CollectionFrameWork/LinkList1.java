@@ -26,7 +26,7 @@ class LL{
         Node head=n1; // head= n1
         n1.next=n2;   //Node point to next node
         n2.next=n3;   //Node point to next node
-        n3.next=n3;   //Node point to next node
+        n3.next=n4;   //Node point to next node
         n4.next=n5;   //Node point to next node
         n5.next=n6;   //Node point to next node
         n6.next=n7;   //Node point to next node
@@ -43,7 +43,6 @@ class LL{
 class Node{
     int data;
     Node next;
-
 
     public Node(int data){
         this.data=data;

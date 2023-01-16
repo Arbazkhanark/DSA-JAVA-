@@ -1,21 +1,38 @@
 package NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork;
 
-import java.util.LinkedList;
-import java.util.List;
+class Main{
 
-public class LinkList2 {
-    public static void main(String[] args) {
-        List<String> li=new LinkedList<>();
-
-        li.add("10");
-        li.add("20");
-        li.add("40");
-        li.add("30");
-        li.add("12");
-
-        for (String str : li) {
-            System.out.print(str+" => " );
+    public static void traverse(Node head){
+        Node temp=head;
+        while(temp!=null){
+            System.out.println(temp.data);
+            temp=temp.next;
         }
-        System.out.println("NULL");
+    }
+
+
+    public static void main(String[] args) {
+        Node n1=new Node(12);
+        Node n2=new Node(16);
+        Node n3=new Node(0);
+        Node n4=new Node(3);
+        Node n5=new Node(20);
+
+        Node head=n1;
+        n1.next=n2;
+        n2.next=n3;
+        n3.next=n4;
+        n4.next=n5;
+
+        traverse(head);
+    }
+}
+
+class Node{
+    int data;
+    Node next;
+
+    public Node(int data){
+        this.data=data;
     }
 }
