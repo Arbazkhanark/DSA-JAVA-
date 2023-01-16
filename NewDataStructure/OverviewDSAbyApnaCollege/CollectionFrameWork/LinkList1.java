@@ -1,14 +1,11 @@
 package NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork;
 
-import java.util.LinkedList;
-import java.util.List;
-
 class LL{
 
     public static void printLL(Node head){
         Node curr=head;
         while(curr!=null){
-            System.out.print(curr.Data+" -> ");
+            System.out.print(curr.data+" -> ");
             curr=curr.next;
 
         }
@@ -44,29 +41,11 @@ class LL{
 }
 
 class Node{
-    int Data;
+    int data;
     Node next;
 
 
     public Node(int data){
-        this.Data=data;
-    }
-}
-
-
-class Linkk{
-    public static void main(String[] args) {
-        List<String> li=new LinkedList<>();
-
-        li.add("10");
-        li.add("20");
-        li.add("40");
-        li.add("30");
-        li.add("12");
-
-        for (String str : li) {
-            System.out.print(str+" => " );
-        }
-        System.out.println("NULL");
+        this.data=data;
     }
 }
