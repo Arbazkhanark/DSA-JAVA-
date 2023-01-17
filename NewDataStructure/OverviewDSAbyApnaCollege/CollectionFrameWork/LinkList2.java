@@ -2,37 +2,57 @@ package NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork;
 
 class Main{
 
-    public static void traverse(Node head){
-        Node temp=head;
-        while(temp!=null){
-            System.out.println(temp.data);
-            temp=temp.next;
+    public Node head=null;
+    public Node next=null;
+
+    public static void AddFirst(Node head,int data){
+        Node n0=new Node(data);
+
+        if(head==null){
+            head=n0;
+            
+        }else{
+            Node temp=head;
+
+            head=n0;
+
+            head.next=temp;
         }
     }
 
-
+    public static void traverse(Node head){
+        Node curr=head;
+        if(head==null){
+            System.out.println("List is Empty");
+        }
+        while(curr!=null){
+            System.out.print(curr.next+" ");
+            curr=curr.next;
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
-        Node n1=new Node(12);
-        Node n2=new Node(16);
-        Node n3=new Node(0);
-        Node n4=new Node(3);
-        Node n5=new Node(20);
+        
+        Node n1=new Node(10);
+        Node n2=new Node(20);
+        Node n3=new Node(30);
+        Node n4=new Node(40);
 
-        Node head=n1;
+        Node head =n1;
         n1.next=n2;
         n2.next=n3;
         n3.next=n4;
-        n4.next=n5;
 
         traverse(head);
+
     }
 }
 
 class Node{
-    int data;
+    int Data;
     Node next;
 
     public Node(int data){
-        this.data=data;
+        this.Data=data;
     }
 }
