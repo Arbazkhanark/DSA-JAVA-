@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TreeAfterCutter",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeAfterCutter",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeBinary",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeBinary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutterBinary",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutterBinary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutterMachineHeight",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutterMachineHeight",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutting",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutting",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutter",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutter",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch SquareRoot",
             "request": "launch",
             "mainClass": "NewDataStructure.BinarySearch.SquareRoot",
