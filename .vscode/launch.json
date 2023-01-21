@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AggressiveCowsBinaySearch",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.AggressiveCowsBinaySearch",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sort",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.Sort",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch AggressiveCows",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.AggressiveCows",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch BookAllocation",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BookAllocation",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch TreeAfterCutter",
             "request": "launch",
             "mainClass": "NewDataStructure.BinarySearch.TreeAfterCutter",
