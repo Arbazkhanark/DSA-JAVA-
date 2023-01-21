@@ -10,8 +10,8 @@ public class BookAllocation {
         for(int i=0;i<arr.length;i++){
             if(sumPage+arr[i]<=mid){            /// 13 ,31 ,37 ,45 ,46 ,54 ,55 ,63 ,73, 84 ,85
                 sumPage+=arr[i];
-            }else{                                     // Stud1:70+.+......... <=mid=50
-                student++;                             //Stud2:
+            }else{                                   
+                student++;                             
                 // sumPage=0;
                 if(student>total_Students || arr[i]>mid){
                     return false;

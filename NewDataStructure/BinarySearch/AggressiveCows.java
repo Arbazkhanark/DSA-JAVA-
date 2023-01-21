@@ -17,9 +17,9 @@ class AggressiveCowsBinaySearch{
                     }
             }
         } 
-
         return false;
     }
+    
     public static void main(String[] args) {
         // int arr[]={10 ,1 ,2 ,7 ,5};
         // int arr[]={31, 27, 8, 33, 32, 20, 7, 24, 23, 3, 26, 9};

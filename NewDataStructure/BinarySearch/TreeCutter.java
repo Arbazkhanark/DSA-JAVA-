@@ -92,7 +92,6 @@ class TreeCutterBinary{
                     }
                 }
 
-
 ////// This will check the Machine_Height Acc to Wood Required
                 if(wood_collection==k){
                     return machine_Height;
