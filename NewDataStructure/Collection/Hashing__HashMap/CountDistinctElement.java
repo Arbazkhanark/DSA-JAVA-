@@ -1,4 +1,4 @@
-package NewDataStructure.Hashing__HashMap;
+package NewDataStructure.Collection.Hashing__HashMap;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -9,10 +9,8 @@ public class CountDistinctElement {
     public static int count(int arr[]){
         HashSet<Integer> set=new HashSet<>();
 
-        int count=-1;
         for (Integer x : arr) {
             set.add(x);
-            count++;
         }
         return set.size();
     }

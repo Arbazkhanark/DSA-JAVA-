@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountDistinctElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.CountDistinctElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch AllFrequencyElement",
             "request": "launch",
             "mainClass": "NewDataStructure.Hashing__HashMap.AllFrequencyElement",
