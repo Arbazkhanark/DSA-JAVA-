@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AllFrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Hashing__HashMap.AllFrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Hashing__HashMap.FrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDistinctElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Hashing__HashMap.CountDistinctElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch AggressiveCowsBinaySearch",
             "request": "launch",
             "mainClass": "NewDataStructure.BinarySearch.AggressiveCowsBinaySearch",
