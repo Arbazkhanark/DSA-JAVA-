@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PairSumUsingSet",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.PairSumUsingSet",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairSumArray",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.PairSumArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch CountDistinctElement",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.CountDistinctElement",
