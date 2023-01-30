@@ -11,9 +11,9 @@ public class FrequencyElement {
         for (Integer x : arr) {  
             if(x==num){
                 count++;
-                map.put(x, x);
+                // map.put(x,x);
             }else{
-                map.put(x,0);
+                // map.put(x,0);
             }
         }
         return count;
@@ -21,7 +21,7 @@ public class FrequencyElement {
 
     public static void main(String[] args) {
         int arr[]={3,1,4,4,4,9,9,3,4,2,2,3,5};
-        int num=4;
+        int num=9;
         System.out.println(frequencyElement(arr,num));
     }
 }
@@ -37,8 +37,8 @@ class AllFrequencyElement{
 
         for (int i : arr) {
             if(map.containsKey(i)){
-                int temp=map.get(i);
-                map.put(i,temp+1);
+                int value=map.get(i);  //value=1
+                map.put(i,value+1);
             }else{
                 map.put(i, 1);
             }
@@ -51,3 +51,8 @@ class AllFrequencyElement{
         frequencyElement(arr);
     }
 }
+
+
+
+
+

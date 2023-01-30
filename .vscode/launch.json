@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ZeroLargestSumSubArray",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.ZeroLargestSumSubArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zero_Sum_SubArray",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Zero_Sum_SubArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.FrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllFrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.AllFrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray_Using_ArrayList",
+            "request": "launch",
+            "mainClass": "ReverseArray_Using_ArrayList",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseArray",
+            "request": "launch",
+            "mainClass": "reverseArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch PairSumUsingSet",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.PairSumUsingSet",
