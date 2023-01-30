@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestConsecutiveSubsequence",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.LongestConsecutiveSubsequence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch ZeroLargestSumSubArray",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.ZeroLargestSumSubArray",

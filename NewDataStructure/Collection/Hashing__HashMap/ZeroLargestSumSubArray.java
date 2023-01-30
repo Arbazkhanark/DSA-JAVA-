@@ -8,13 +8,12 @@ public class ZeroLargestSumSubArray {
         HashMap<Integer,Integer> map=new HashMap<>();
 
         map.put(0,-1);
-        // int x=0;
         int ans=0;
         for (int i=0;i<Cummulative.length;i++) {
             
             if(map.containsKey(Cummulative[i])){
                 int prev=map.get(Cummulative[i]);
-                ans=Math.max(ans, i-prev);
+                ans=Math.max(ans, i-prev);         //4,4,1,10
             }else{
                 map.put(Cummulative[i],i);
             }
