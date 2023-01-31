@@ -13,7 +13,7 @@ class Inputoutput{
         System.out.println("Here is your name But it is Half Because We use next : "+name);
 
         System.out.println("Now, You can Enter Full Name: ");
-        // sc.nextLine();
+        // sc.nextLine();  // It will read full line..
         sc.nextLine();//It store Enter,, Without this below line will not asking for input because it will Store Enter.
         String fname=sc.nextLine();
         System.out.println("Here is your Full name Because we use nextLine here: "+fname);

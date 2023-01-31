@@ -1,4 +1,4 @@
-// USE For Loop require :- If we know the number of iterators
+// USE For_Loop require :- If we know the number of iterators
 class For{
     public static void main(String[] args){
         int x=10;

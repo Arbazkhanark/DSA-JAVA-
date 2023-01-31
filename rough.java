@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 class Heyyyy{
 
     public static void main(String[] args) {
@@ -29,5 +32,71 @@ class Heyyyy{
 
 
         
+    }
+}
+
+
+
+
+//// Without Using Space Complexity
+class ReverseArray{
+    public static void main(String[] args) {
+        int arr[]={2,5,1,0,3,8};
+
+        int start=0;
+        int end=arr.length-1;
+        while(start<end){
+            int temp=arr[start];
+            arr[start]=arr[end];
+            arr[end]=temp;
+            start++;end--;
+        }
+
+        for (int i : arr) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+//// Using Space Complexity
+class reverseArray{
+    public static void main(String[] args) {
+        int arr[]={2,4,7,8,1};
+        int res[]=new int[arr.length];
+
+        int temp=0;
+        for(int i=arr.length-1;i>=0;i--){
+            res[temp++]=arr[i]; 
+        }
+
+        for (int i : res) {
+            System.out.println(i);
+        }
+    }
+}
+
+
+class ReverseArray_Using_ArrayList{
+    public static void main(String[] args) {
+        // int arr[]={3,6,9,10,8,7,3,1,0};
+        ArrayList<Integer> arr=new ArrayList<>();
+        arr.add(3);
+        arr.add(6);
+        arr.add(9);
+        arr.add(10);
+        arr.add(8);
+        arr.add(7);
+        arr.add(3);
+        arr.add(1);
+        arr.add(0);
+
+        System.out.println("Before:"+arr);
+        
+        Collections.reverse(arr); 
+
+        System.out.println("After:"+arr);
+
     }
 }

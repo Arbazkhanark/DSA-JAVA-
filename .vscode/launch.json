@@ -6,6 +6,363 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestConsecutiveSubsequence",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.LongestConsecutiveSubsequence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZeroLargestSumSubArray",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.ZeroLargestSumSubArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zero_Sum_SubArray",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Zero_Sum_SubArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.FrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllFrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.AllFrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray_Using_ArrayList",
+            "request": "launch",
+            "mainClass": "ReverseArray_Using_ArrayList",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseArray",
+            "request": "launch",
+            "mainClass": "reverseArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairSumUsingSet",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.PairSumUsingSet",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairSumArray",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.PairSumArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDistinctElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.CountDistinctElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllFrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Hashing__HashMap.AllFrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrequencyElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Hashing__HashMap.FrequencyElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDistinctElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Hashing__HashMap.CountDistinctElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch AggressiveCowsBinaySearch",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.AggressiveCowsBinaySearch",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sort",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.Sort",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch AggressiveCows",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.AggressiveCows",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch BookAllocation",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BookAllocation",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeAfterCutter",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeAfterCutter",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeBinary",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeBinary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutterBinary",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutterBinary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutterMachineHeight",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutterMachineHeight",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutting",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutting",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeCutter",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.TreeCutter",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareRoot",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.SquareRoot",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareOfArray",
+            "request": "launch",
+            "mainClass": "SquareOfArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Square",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Square",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch merge",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.merge",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSecondWay",
+            "request": "launch",
+            "mainClass": "MergeSecondWay",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch mergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "mergeTwoSortedArray",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Median_of_Two_Sorted_Arrays",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Median_of_Two_Sorted_Arrays",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary_Rough",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Binary_Rough",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Search_in_Infinite_Array",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Search_in_Infinite_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch search_in_Rotated_Array",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.search_in_Rotated_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Binary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch First_Occurence",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.First_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Last_Occurence",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Last_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count",
+            "request": "launch",
+            "mainClass": "NewDataStructure.BinarySearch.BinarySearch.Count",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Last_Occurence",
+            "request": "launch",
+            "mainClass": "BinarySearch.Last_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch First_Occurence",
+            "request": "launch",
+            "mainClass": "BinarySearch.First_Occurence",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inputoutput",
+            "request": "launch",
+            "mainClass": "Inputoutput",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shift",
+            "request": "launch",
+            "mainClass": "Shift",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary",
+            "request": "launch",
+            "mainClass": "BinarySearch.Binary",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplyMatrix",
+            "request": "launch",
+            "mainClass": "MultiplyMatrix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddMatrix",
+            "request": "launch",
+            "mainClass": "AddMatrix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch matrix",
+            "request": "launch",
+            "mainClass": "matrix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchElement_In_TwoD_Array",
+            "request": "launch",
+            "mainClass": "SearchElement_In_TwoD_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add_TwoD_Array",
+            "request": "launch",
+            "mainClass": "Add_TwoD_Array",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch matrix",
+            "request": "launch",
+            "mainClass": "BinarySearch.matrix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch.BinarySearch",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch Quick",
             "request": "launch",
             "mainClass": "SortingAlgo.Quick",
