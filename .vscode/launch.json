@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinkList",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.LinkList",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.Main",
