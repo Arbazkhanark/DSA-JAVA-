@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MiddleNode",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.MiddleNode",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.ReverseLinkedList",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMiddleNode",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.FindMiddleNode",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchMiddleNode",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.SearchMiddleNode",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch deleteNodeLL",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.deleteNodeLL",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkList",
             "request": "launch",
             "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.LinkList",
