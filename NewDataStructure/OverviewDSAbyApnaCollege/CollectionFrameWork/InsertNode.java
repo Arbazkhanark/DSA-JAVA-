@@ -1,7 +1,7 @@
-package NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork;
+// package NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork;
 
-public class InsertNode {
-    public static void main(String[] args) {
+// public class InsertNode {
+//     public static void main(String[] args) {
         
-    }
-}
+//     }
+// }
