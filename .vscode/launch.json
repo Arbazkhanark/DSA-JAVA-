@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RecurssionReverseInGroupLL",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.RecurssionReverseInGroupLL",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseNodesRecurssion",
             "request": "launch",
             "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.ReverseNodesRecurssion",
