@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InfixToPrefix",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.InfixToPrefix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch InfixToPostfix1",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.InfixToPostfix1",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch InfixToPostfix",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.InfixToPostfix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch NearestSmallestElement",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.NearestSmallestElement",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParenthesis",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.ValidParenthesis",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseImplimentationLL",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.UsingLinkedLink.UseImplimentationLL",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseImplimentation",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.UseImplimentation",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertAfterGivenNode",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.Doubly_LinkedList.InsertAfterGivenNode",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeLL",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.PalindromeLL",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLL",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.MergeTwoSortedLL",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsCycleInNode",
+            "request": "launch",
+            "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.IsCycleInNode",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch RecurssionReverseInGroupLL",
             "request": "launch",
             "mainClass": "NewDataStructure.OverviewDSAbyApnaCollege.CollectionFrameWork.RecurssionReverseInGroupLL",
