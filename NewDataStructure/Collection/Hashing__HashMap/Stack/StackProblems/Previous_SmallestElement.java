@@ -2,7 +2,7 @@ package NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems;
 
 import java.util.Stack;
 
-public class NearestSmallestElement {
+public class Previous_SmallestElement {
     
     public static void smallest(int arr[]){
         int res[]=new int[arr.length];

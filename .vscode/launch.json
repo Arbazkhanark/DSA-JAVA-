@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaxAreaHistogram",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.MaxAreaHistogram",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsingTwoStack",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.ImplimentTwoStackUsingOneArray.UsingTwoStack",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch InfixToPrefix",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.InfixToPrefix",
