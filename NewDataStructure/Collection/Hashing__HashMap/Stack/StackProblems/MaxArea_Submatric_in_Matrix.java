@@ -9,7 +9,6 @@ public class MaxArea_Submatric_in_Matrix {
         int prev_Smallest[]=new int[arr.length];
         Stack<Integer> stack =new Stack<>();
 
-        // int k=0;
         for(int i=0;i<arr.length;i++){
             int curr=arr[i];
             while(!stack.isEmpty() && arr[stack.peek()]>=curr){
@@ -31,7 +30,7 @@ public class MaxArea_Submatric_in_Matrix {
         int nextSmall[]=new int[arr.length];
         Stack<Integer> stack =new Stack<>();
 
-        int k=0;
+    
         for(int i=arr.length-1;i>=0;i--){
             int curr=arr[i];
 
@@ -49,6 +48,7 @@ public class MaxArea_Submatric_in_Matrix {
         return nextSmall;
     }
 
+    // Maximum Area of Histogram
     public static int max_Area_Histogram(int arr[]){
         int prev_Smallest[]=Previous_Smallest(arr);
         int next_Smallest[]=next_Smallest(arr);
