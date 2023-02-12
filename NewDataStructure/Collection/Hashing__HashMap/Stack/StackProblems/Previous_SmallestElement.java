@@ -33,7 +33,7 @@ public class Previous_SmallestElement {
     }
     public static void main(String[] args) {
         
-        int arr[]={5 , 3 , 5,7,1};
+        int arr[]={5,3,5,7,1};
         smallest(arr);  
     }
 }
