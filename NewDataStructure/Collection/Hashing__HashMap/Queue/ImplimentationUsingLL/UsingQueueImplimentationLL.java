@@ -1,4 +1,4 @@
-package NewDataStructure.Collection.Hashing__HashMap.Queue;
+package NewDataStructure.Collection.Hashing__HashMap.Queue.ImplimentationUsingLL;
 
 public class UsingQueueImplimentationLL {
 

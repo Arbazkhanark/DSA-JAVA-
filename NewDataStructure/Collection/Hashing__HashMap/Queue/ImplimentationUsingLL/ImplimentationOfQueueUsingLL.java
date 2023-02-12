@@ -1,4 +1,4 @@
-package NewDataStructure.Collection.Hashing__HashMap.Queue;
+package NewDataStructure.Collection.Hashing__HashMap.Queue.ImplimentationUsingLL;
 
 public class ImplimentationOfQueueUsingLL {
     Node front;
@@ -26,7 +26,7 @@ public class ImplimentationOfQueueUsingLL {
         if(front==null)return true;
         return false;
     }
-    
+
     int getFront() throws Exception{
         if(isEmpty()) throw new Exception("Queue is Empty!!!!!");
         return front.data;
