@@ -26,7 +26,7 @@ class Basic{
         
         System.out.println(printInverseNaturalNumber(5));
         System.out.println();
-        System.out.println(printNaturalNumber(1));
+        // System.out.println(printNaturalNumber(1));
 
     }
 }

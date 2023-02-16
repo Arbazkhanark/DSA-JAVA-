@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CreateBinaryTree",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.CreateBinaryTree",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch InorderTraversal",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.InorderTraversal",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumbers",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Queue.QueueProblems.PrintNumbers",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sliding_Max_Window",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Queue.QueueProblems.Sliding_Max_Window",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circular_Tour",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Queue.QueueProblems.Circular_Tour",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse_K_element_In_Queue",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Queue.QueueProblems.Reverse_K_element_In_Queue",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsingCircularArrayImpli",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Queue.ImplimentationUsingCircularArray.UsingCircularArrayImpli",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsingArrayImelimentation",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Queue.ImplimentationUsingArray.UsingArrayImelimentation",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsingQueueImplimentationLL",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Queue.UsingQueueImplimentationLL",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImplimentationMinStack",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.Impliment_minStack.ImplimentationMinStack",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxArea_Submatric_in_Matrix",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.MaxArea_Submatric_in_Matrix",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array3",
+            "request": "launch",
+            "mainClass": "Array3",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxAreaHistogram_STACK",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.MaxAreaHistogram_STACK",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch MaxAreaHistogram",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Stack.StackProblems.MaxAreaHistogram",
