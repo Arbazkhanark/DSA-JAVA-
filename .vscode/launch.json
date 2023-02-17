@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HeightOfTree",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.HeightOfTree",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch PostOrder_Traversal",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.PostOrder_Traversal",
