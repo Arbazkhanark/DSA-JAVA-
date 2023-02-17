@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PostOrder_Traversal",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.PostOrder_Traversal",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreOrder_Traversal",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.PreOrder_Traversal",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch CreateBinaryTree",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.CreateBinaryTree",
