@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintAllNodesPresentAtDistanceK",
+            "request": "launch",
+            "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.PrintAllNodesPresentAtDistanceK",
+            "projectName": "java_561a6418"
+        },
+        {
+            "type": "java",
             "name": "Launch HeightOfTree",
             "request": "launch",
             "mainClass": "NewDataStructure.Collection.Hashing__HashMap.Tree.HeightOfTree",
